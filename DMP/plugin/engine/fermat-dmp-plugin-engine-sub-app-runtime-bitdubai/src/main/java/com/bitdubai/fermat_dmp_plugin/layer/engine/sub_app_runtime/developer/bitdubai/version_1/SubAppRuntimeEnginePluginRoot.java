@@ -562,7 +562,7 @@ public class SubAppRuntimeEnginePluginRoot extends AbstractPlugin implements Sub
             runtimeSideMenu.setBackgroundColor("#0072bb");
 
             runtimeMenuItem = new MenuItem();
-            runtimeMenuItem.setLabel("Cripto wallet users");
+            runtimeMenuItem.setLabel("Crypto Wallet Users");
             runtimeMenuItem.setAppLinkPublicKey(communityPublicKey);
             runtimeMenuItem.setLinkToActivity(Activities.CCP_SUB_APP_INTRA_USER_COMMUNITY_CONNECTION_WORLD);
             runtimeSideMenu.addMenuItem(runtimeMenuItem);
@@ -616,7 +616,7 @@ public class SubAppRuntimeEnginePluginRoot extends AbstractPlugin implements Sub
             runtimeSideMenu.setBackgroundColor("#0072bb");
 
             runtimeMenuItem = new MenuItem();
-            runtimeMenuItem.setLabel("Cripto wallet users");
+            runtimeMenuItem.setLabel("Crypto Wallet Users");
             runtimeMenuItem.setAppLinkPublicKey(communityPublicKey);
             runtimeMenuItem.setLinkToActivity(Activities.CCP_SUB_APP_INTRA_USER_COMMUNITY_CONNECTION_WORLD);
             runtimeSideMenu.addMenuItem(runtimeMenuItem);
@@ -670,7 +670,7 @@ public class SubAppRuntimeEnginePluginRoot extends AbstractPlugin implements Sub
             runtimeSideMenu.setHasFooter(false);
 
             runtimeMenuItem = new MenuItem();
-            runtimeMenuItem.setLabel("Cripto wallet users");
+            runtimeMenuItem.setLabel("Crypto Wallet Users");
             runtimeMenuItem.setAppLinkPublicKey(communityPublicKey);
             runtimeMenuItem.setLinkToActivity(Activities.CCP_SUB_APP_INTRA_USER_COMMUNITY_CONNECTION_WORLD);
             runtimeSideMenu.addMenuItem(runtimeMenuItem);
@@ -1887,7 +1887,7 @@ public class SubAppRuntimeEnginePluginRoot extends AbstractPlugin implements Sub
         runtimeSideMenu.setHasFooter(false);
 
         runtimeMenuItem = new MenuItem();
-        runtimeMenuItem.setLabel("Cripto wallet users");
+        runtimeMenuItem.setLabel("Crypto Wallet Users");
         runtimeMenuItem.setAppLinkPublicKey(communityPublicKey);
         runtimeMenuItem.setLinkToActivity(Activities.CCP_SUB_APP_INTRA_USER_COMMUNITY_CONNECTION_WORLD);
         runtimeSideMenu.addMenuItem(runtimeMenuItem);
