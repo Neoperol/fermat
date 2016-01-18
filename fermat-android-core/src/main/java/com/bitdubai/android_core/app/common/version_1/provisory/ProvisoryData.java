@@ -30,7 +30,7 @@ public class ProvisoryData {
         //Identities
         List<Item> lstIdentities = new ArrayList<>();
 
-        installedSubApp = new InstalledSubApp(SubApps.CWP_INTRA_USER_IDENTITY,null,null,"intra_user_identity_sub_app","Wallet Users","public_key_ccp_intra_user_identity","intra_user_identity_sub_app",new Version(1,0,0));
+        installedSubApp = new InstalledSubApp(SubApps.CWP_INTRA_USER_IDENTITY,null,null,"intra_user_identity_sub_app","Crypto Wallet Users","public_key_ccp_intra_user_identity","intra_user_identity_sub_app",new Version(1,0,0));
         item2 = new Item(installedSubApp);
         item2.setIconResource(R.drawable.intra_user_identity_xxhdpi);
         item2.setPosition(0);
@@ -96,7 +96,7 @@ public class ProvisoryData {
         //communities
         List<Item> lstCommunities = new ArrayList<>();
 
-        installedSubApp = new InstalledSubApp(SubApps.CCP_INTRA_USER_COMMUNITY,null,null,"intra_user_community_sub_app","Wallet Users","public_key_intra_user_commmunity","intra_user_community_sub_app",new Version(1,0,0));
+        installedSubApp = new InstalledSubApp(SubApps.CCP_INTRA_USER_COMMUNITY,null,null,"intra_user_community_sub_app","Crypto Wallet Users","public_key_intra_user_commmunity","intra_user_community_sub_app",new Version(1,0,0));
         Item item1 = new Item(installedSubApp);
         item1.setIconResource(R.drawable.intra_user_community_xxhdpi);
         item1.setPosition(0);
